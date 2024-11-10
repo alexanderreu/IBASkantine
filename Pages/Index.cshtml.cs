@@ -12,7 +12,7 @@ public class IndexModel : PageModel
 
     public IndexModel()
     {
-        var connectionString = "DefaultEndpointsProtocol=https;AccountName=ibaskantinemenu1;AccountKey=QzQqUXfpXLrXd9fpl9qeXE1NNkQPGoRx9/Fe8kc5f9horQQCyvHqxQondneAFctV/c4gRg2Mz0US+AStbonYzA==;EndpointSuffix=core.windows.net";
+        var connectionString = ;
         var tableName = "ibaskantinemenu";
         _tableClient = new TableClient(connectionString, tableName);
         
